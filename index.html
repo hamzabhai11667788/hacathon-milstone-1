@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume Builder</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="resume-builder">
+    <!-- Personal Section -->
+    <section id="personal">
+      <h2>Personal Information</h2>
+      <div class="content">
+        <img src="images/profile.png" alt="Profile Picture" id="profile-pic">
+        <div>
+          <p><strong>Name:</strong> <span id="name">Hamza Rehmani</span></p>
+          <p><strong>Contact:</strong> <span id="contact">hamzabhai16789@example.com</span></p>
+          <p><strong>Details:</strong> <span id="details">Frontend  developer</span></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+      <h2>Education</h2>
+      <ul>
+        <li>Inter in Computer sceince </li>
+        <li>High School - Al Abrar Islamic Acedmy  School (2020)</li>
+      </ul>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>TypeScript</li>
+        <li>React</li>
+        <li>Next.js</li>
+      </ul>
+      <button class="toggle-btn" data-section="skills">Skills</button>
+    </section>
+
+    <!-- Work Experience Section -->
+    <section id="work-experience">
+      <h2>Work Experience</h2>
+      <ul>
+        <li>Frontend Developer</li>
+        <li>Intern  </li>
+      </ul>
+      <button class="toggle-btn" data-section="work-experience">work Experience</button>
+    </section>
+  </div>
+
+  <script src="script.js" type="module"></script>
+</body>
+</html>
